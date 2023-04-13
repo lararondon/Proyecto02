@@ -1,0 +1,18 @@
+div{border:1px solid black;
+width:170px;
+padding-left:20px;
+padding-top:10px;
+padding-bottom: 15px;}
+
+button{
+    padding:8px;
+}
+
+#suma{
+    margin-left: 20px;
+}
+
+input{
+    width: 50px;
+    margin: 5px;
+}

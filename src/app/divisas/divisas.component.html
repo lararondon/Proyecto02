@@ -1,0 +1,11 @@
+<div>
+    <b>Cantidad a convertir en euros: </b><input type="number" [(ngModel)]="euros"><br>
+    <b>Tipo moneda: </b>
+    <select [(ngModel)]="moneda">
+        <option value="libra">Libra</option>
+        <option value="dolar">Dólar</option>
+        <option value="yen">Yen</option>
+    </select><br>
+    <b>Resultado: </b><input type="text" [value]="resultado"><br><br>
+    <button (click)="cambiar_moneda()">Cambiar moneda</button>
+</div>

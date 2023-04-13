@@ -1,0 +1,11 @@
+#mensaje{border:0px;
+    width:900px;}
+
+div{border:1px solid black;
+    width:1000px;
+    padding-left:20px;
+    padding-bottom: 50px;}
+    
+input{
+    margin: 6px;
+}
